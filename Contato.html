@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Contato - www.BioSecret.com.br</title>
+<link rel="stylesheet" href="CSS/reset.css">
+<link rel="stylesheet" href="CSS/styles-header-footer.css">
+<link rel="stylesheet" href="CSS/styles-contato.css">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles-fonte.css">
+</head>
+<body>
+	<header class="cabecalho">
+		<h1><img class="logo" src="imagens/logoTransparente.png" alt="Logo do Studio de est�tica"></h1>	
+		<nav class="menu">
+			<ul class="menu__lista">
+				<li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+				<li class="menu__item"><a class="menu__link" href="facial.html">Facial</a></li>
+				<li class="menu__item"><a class="menu__link" href="capilar.html">Capilar</a></li>
+				<li class="menu__item"><a class="menu__link" href="corporal.html">Corporal</a></li>
+				<li class="menu__item"><a class="menu__link" href="Contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<form>
+			<section class="painel-contato">
+				<div class="form-conteudo">
+					<fieldset>
+						<label for = "nomeSobrenome">Nome e sobreome:</label>
+						<input class="input-padrao" type="text" id = "nomeSobrenome" required="required">
+						<label for = "email">E-mail:</label>
+						<input class="input-padrao" type="email" id = "email" required="required" placeholder="Ex.: fulano@gmail.com">
+						<label for = "telefone">Telefone:</label>
+						<input class="input-padrao" type="tel" id = "telefone" required="required" placeholder="Ex.: (xx)xxxxx-xxxx">
+						<label for = "mensagem">Mensagem</label>
+						<textarea class="input-padrao" id = "mensagem" required="required"></textarea>
+					</fieldset>
+					<fieldset>
+						<legend>Escolha a prefer�ncia do nosso contato:</legend>
+						<label for="radio-email">
+						<input type="radio" name = "contato" value="email" id="radio-email" >E-mail</label>
+						<label for="radio-telefone">
+						<input type="radio" name = "contato" value="telefone" id="radio-telefone" >Telefone</label>
+						<label for="radio-whatsapp">
+						<input type="radio" name = "contato" value="whatsapp" id="radio-whatsapp" checked="checked">whatsapp</label>	
+					</fieldset>
+					<fieldset>
+						<input type="submit" value="Enviar contato" class="btnEnviar">
+					</fieldset>
+					
+				</div>
+				<div class="img-contato">
+						<img src="imagens/imagemContato.jpg">
+				</div>
+			</section>
+		</form>
+	</main>
+	<footer class="rodape">
+			<img class = "rodape__logo" src = "imagens/logoTransparente.png" alt="Logo do Studio de est�tica">
+			<p class = "rodape__copyright">&copy; Copyright Studio BioSecret - 2022
+		</footer>
+</body>
+</html>

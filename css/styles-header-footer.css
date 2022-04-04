@@ -1,0 +1,53 @@
+.cabecalho{
+	align-items:center;
+	background:#65DAF9;
+	display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: relative;
+}
+.menu{
+	position: absolute;
+	right:1rem;
+	text-align: right;
+}
+
+.menu__lista{
+	display: flex;
+}
+
+.menu__item{
+	list-style: none;
+}
+
+.menu__link{
+	color: #ffffff;
+	margin-right: 1.25rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.menu__link:hover{
+	color: #C78C19;
+}
+
+.logo{
+	height: 8rem;
+}
+
+.rodape{
+	text-align:  center;
+	background: url("../imagens/bg-footer.jpg");
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.rodape__logo{
+	height: 8rem;
+}
+
+.rodape__copyright{
+	color: #ffffff;
+	font-size: .7rem;	
+}

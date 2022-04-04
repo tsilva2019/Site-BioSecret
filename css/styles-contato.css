@@ -1,0 +1,55 @@
+main{
+	background: linear-gradient(#fff2f2,#ffdbdb,#ffcece,#ffa8a8);
+}
+
+.painel-contato{
+	display: flex;
+	flex-direction: row;
+}
+
+form{
+	width: 1300px;
+	margin-top:6px;
+	padding: 20px 0;
+}
+
+.form-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 5px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 40%;
+	border:2px;
+	border-style:solid;
+	border-radius: 5px;
+	border-color: #D49CA9;
+}
+
+.btnEnviar{
+	width: 30%;
+	margin-top:10px;
+	padding: 15px 0;
+	background: #0080ff;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	box-shadow: 5px 5px 5px gray;
+}
+
+.btnEnviar:hover {
+	background: #0000ff;
+	cursor: pointer;
+}
